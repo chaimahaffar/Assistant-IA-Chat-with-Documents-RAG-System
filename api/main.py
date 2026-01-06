@@ -12,3 +12,5 @@ def health():
 def query(request: QueryRequest):
     answer = query_rag(request.question)
     return {"answer": answer}
+
+
