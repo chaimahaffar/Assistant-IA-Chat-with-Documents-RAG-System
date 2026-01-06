@@ -41,15 +41,13 @@ def calculate_chunk_ids(chunks):
 
 
 def build_or_update_chroma_db(chunks, embeddings, chroma_path="chroma_db"):
-    # 🔒 SI DB EXISTE → ON LA CHARGE SEULEMENT
     if os.path.exists(chroma_path) and os.listdir(chroma_path):
-        print("✅ Loading existing Chroma DB (read-only)")
+        print(" Loading existing Chroma DB (read-only)")
         return Chroma(
             persist_directory=chroma_path,
             embedding_function=embeddings
         )
 
-    # 🆕 CRÉATION UNE SEULE FOIS
     print("Creating Chroma DB (first time)")
 
     chunks = calculate_chunk_ids(chunks)
