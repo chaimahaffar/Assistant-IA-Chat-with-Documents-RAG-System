@@ -46,7 +46,7 @@ Official Ticket to Ride rulebook containing:
 
 ## 🧠 System Architecture (RAG Pipeline)
 
-The system follows a **modular Retrieval-Augmented Generation architecture**, designed to ensure **factual grounding**, **traceability**, and **evaluability**.
+The system follows a modular Retrieval-Augmented Generation architecture, designed to ensure factual grounding, traceability, and evaluability.
 ---
 ## 📊 Evaluation Pipeline
 
