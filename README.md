@@ -36,11 +36,12 @@ The system operates on a curated set of **PDF rulebooks**, chosen for their fact
 
 ### Included Documents
 
-#### 📘 monopoly.pdf
-Official Monopoly rulebook containing:
+ 📘 monopoly.pdf
+Official Monopoly rulebook containing
 
-#### 📕 ticket_to_ride.pdf
-Official Ticket to Ride rulebook containing:
+📕 ticket_to_ride.pdf
+Official Ticket to Ride rulebook containing
+
 ---
 ## 📊 Evaluation Pipeline
 
