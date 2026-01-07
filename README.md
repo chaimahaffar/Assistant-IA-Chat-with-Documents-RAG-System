@@ -32,10 +32,6 @@ The system:
 
 ## 📚 PDF Dataset
 
-The system operates on a curated set of **PDF rulebooks**, chosen for their factual density and well-defined rules.
-
-### Included Documents
-
 monopoly.pdf
 
 ticket_to_ride.pdf
