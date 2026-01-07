@@ -94,14 +94,5 @@ This avoids bias introduced by generative models during retrieval assessment.
 - Same or separate model from the generator
 - Fully offline and reproducible
 
----
-
-### 🧠 Design Choice: Why LLM as Judge Only for Generation?
-
-- Retrieval quality can be evaluated using **objective metrics**
-- Generation quality requires **semantic and factual reasoning**
-- LLM-based judgment aligns better with **human evaluation** of answers
-- Clear separation improves experimental validity
-
 
 
